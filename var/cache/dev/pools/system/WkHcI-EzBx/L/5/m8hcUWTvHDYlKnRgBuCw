@@ -1,0 +1,56 @@
+<?php //App_Entity_Review
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Review',
+                'id',
+                'craftsman',
+                'user',
+                'rating',
+                'comment',
+                'createdAt',
+                'updatedAt',
+                'createdAtValue',
+                'updatedAtValue',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'craftsman' => $o[2],
+                    'user' => $o[3],
+                    'rating' => $o[4],
+                    'comment' => $o[5],
+                    'createdAt' => $o[6],
+                    'updatedAt' => $o[7],
+                    'createdAtValue' => $o[8],
+                    'updatedAtValue' => $o[9],
+                ],
+            ],
+            'groups' => [
+                4 => [
+                    'craftsman:list',
+                ],
+                [
+                    'craftsman:list',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

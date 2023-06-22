@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit City
+{% endblock %}
+
+{% block body %}
+	<div class="container-fluid my-3">
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<div class="card-header d-flex justify-content-between">
+						<h5>Edit city</h5>
+						<div>
+							<a href="{{ path('app_city_index') }}" class="btn btn-outline-secondary">Cancel</a>
+							<a href="{{ path('app_city_new') }}" class="btn btn-primary" id="save">Save</a>
+						</div>
+					</div>
+					<div class="card-body">
+						{{ include('city/_form.html.twig', {'button_label': 'Update'}) }}
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

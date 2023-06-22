@@ -1,0 +1,71 @@
+<?php //App_Entity_Craftsman
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Craftsman',
+                'id',
+                'craftsmanImages',
+                'user',
+                'reviews',
+                'description',
+                'status',
+                'professions',
+                'cities',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'craftsmanImages' => $o[2],
+                    'user' => $o[3],
+                    'reviews' => $o[4],
+                    'description' => $o[5],
+                    'status' => $o[6],
+                    'professions' => $o[7],
+                    'cities' => $o[8],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'craftsman:item',
+                    'craftsman:list',
+                ],
+                [
+                    'craftsman:item',
+                    'craftsman:list',
+                ],
+                [
+                    'craftsman:item',
+                    'craftsman:list',
+                ],
+                5 => [
+                    'craftsman:item',
+                    'craftsman:list',
+                ],
+                7 => [
+                    'craftsman:item',
+                    'craftsman:list',
+                ],
+                [
+                    'craftsman:item',
+                    'craftsman:list',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

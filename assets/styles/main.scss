@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+.required-label::after {
+    content: '*';
+    color: red;
+}
